@@ -1,1 +1,2 @@
-# hexlet-django-blog
+# Education project
+## hexlet-django-blog
