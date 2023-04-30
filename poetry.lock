@@ -39,6 +39,17 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "python-dotenv"
+version = "1.0.0"
+description = "Read key-value pairs from a .env file and set them as environment variables"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.extras]
+cli = ["click (>=5.0)"]
+
+[[package]]
 name = "sqlparse"
 version = "0.4.3"
 description = "A non-validating SQL parser."
@@ -57,11 +68,12 @@ python-versions = ">=2"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "8fc47d4c21247f2f1b68cda8407cabf160a5ba299111efdb68ad13e98bb1bfa4"
+content-hash = "cd806dc3ee9aea8896e22ac5cac70b640c37ed1933879027558ec814f572658e"
 
 [metadata.files]
 asgiref = []
 "backports.zoneinfo" = []
 django = []
+python-dotenv = []
 sqlparse = []
 tzdata = []
